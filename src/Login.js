@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 
 function Login() {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useStateValue("");
   const [password, setpassword] = useStateValue("");
 
   return (
